@@ -1,0 +1,248 @@
+body
+{
+    font-family: 'Catamaran', sans-serif;
+    padding:0;
+    margin:0;
+    background-color:#eee;
+}
+/*
+#headerBlock
+{
+    background-color:#fff;
+    padding:0 5%;
+    height:50px;
+}
+.logoBlock
+{
+    background:red;
+    width:50%;
+    float:left;
+}
+.searchBlock
+{
+    background:green;
+    width:50%;
+    float:left;
+}
+.logoBlock .logo
+{
+    background:lime;
+    width:20%;
+    float:left;
+}
+.logoBlock .menuleft
+{
+    background:pink;
+    width:80%;
+    float:left;
+}
+.searchBlock .search
+{
+    background:skyblue;
+    width:70%;
+    float:left;
+}
+.searcBlock .rightMenu
+{
+    background:orangered;
+    width:30%;
+    float:left;
+}
+*/
+#headerBlock .container
+{
+background-color:white;
+height:70px;
+display:flex;
+padding: 0 5px;
+justify-content:center;
+align-items:center;
+box-shadow:1px 2px 3px 4px #cccccc87;
+}
+.logoBlock
+{
+    width:45%;
+    display:flex;
+}
+.searchBlock
+{
+    width:55%;
+    display:flex;
+}
+.search 
+{
+     width:70%;
+     font-size:13px;
+     display:flex;
+     align-items:center;
+ 
+}
+.rightMenu
+{
+    width:30%;
+}
+.logo
+{
+    width:15%;
+}
+.menuLeft
+{
+    width:85%;
+    justify-content:center;
+    align-items:center;
+}
+.logo img
+{
+    width: 55px;
+    height:65px;
+    padding:35px 35px;
+}
+.leftUl
+{
+    list-style:none;
+    padding: 50px 40px;
+    margin:0;
+    display:flex;
+    height:35px;
+    justify-content:center;
+    align-items:center;
+}
+
+.leftUl li a
+{
+ text-decoration:none;
+ font-weight:bold;
+ color:#111;
+ font-size:16px;
+ padding: 23px 10px;
+ letter-spacing:.081em;
+}
+.rightUl
+{
+ list-style:none;
+ display:flex;
+ align-items:center;
+ justify-content:flex-start;
+ padding:0 0 5px 0;
+}
+.rightUl li a
+{
+ text-decoration:none;
+ padding:4px;
+margin:-8px;
+color:#111;
+font-size:14px;
+font-weight:bold;
+}
+.search input
+{
+    padding:8px 20px;
+    border:none;
+    border-radius:1px;
+    background-color:#e5e5e5e5;
+    width:95%;
+}
+.hill div
+{
+    margin:10px;
+    width:50%;
+    height:50%;
+    position:relative;
+    padding:10px;
+}
+.use1
+{
+    background:red;
+    left:884px;
+    right:815px;
+}
+.use2
+{
+    background:green;
+}
+.fa-search
+{
+    position:absolute;
+    color:#444;
+   margin:-5px;
+    padding:0 8px;
+}
+
+.iconParent
+{
+    position:relative;
+}
+.rightUl li 
+{
+    padding:13px;
+}
+.rightUl li a span i
+{
+  font-size:18px;
+  }
+.rightUl li a
+{
+display:flex;
+align-items:center;
+flex-direction:column;
+}
+
+.Women:hover
+{
+    border-bottom:3px solid lightsalmon;
+}
+.Men:hover
+{
+    border-bottom:3px solid lightseagreen;
+}
+.Home:hover
+{
+    border-bottom:3px solid orangered;
+} 
+.Living:hover
+{
+    border-bottom:3px solid goldenrod;
+}
+.Kids:hover
+{
+    border-bottom:3px solid maroon;
+}
+/* slider nlock starts from here*/
+#sliderBlock .sliderimg1
+{
+    width:100%;
+    height:310px;
+}
+#sliderBlock .sliderimg2
+{
+    width:100%;
+    height:80px;
+}
+#sliderBlock article
+{    margin-bottom:10px;
+    margin-top: 8px;
+}
+#storeBlock
+{
+    background:white;
+}
+#storeBlock article
+{
+    width: 1200px;
+    margin: 0 auto;
+    text-align:center;
+    justify-content:center;
+    display:flex;
+    flex-wrap:wrap;
+    align-items:center;
+
+}
+ .stores
+{
+    width:30%;
+} 
+.stores img
+{
+    padding:10px 0px;
+    margin:0;
+}
